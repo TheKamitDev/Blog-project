@@ -1,0 +1,4 @@
+.update__container{
+    display: grid;
+    grid-template-columns: 2fr fr;
+}

@@ -1,0 +1,89 @@
+.home{
+ display: flex;
+ justify-content:space-around;
+ width: 85vw;
+ margin: 0 auto;
+ margin-top: 4rem;
+}
+
+.home__left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 9;
+    place-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding-left: 1rem;
+}
+.home__right{
+    flex: 3;
+    margin-left: 3rem;
+}
+.home__right p{
+    margin: 1rem 0;
+    font-size: 14px;
+}
+.home__right h2{
+    margin: 0 auto;
+    display: block;
+ }
+.home__img{
+    width: 100vw;
+    height: 300px;
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+.img{
+    width: 100wv;
+    height: 200px;
+}
+.home__container{
+    width: 100vw;
+}
+.blog{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.post__img{
+    height: 200px;
+    width: 100%;
+}
+.blog p {
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 14px;
+}
+.blog h3{
+    margin: 1rem 0;
+}
+.home__image{
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.home__profile{
+    width:100%;
+    height:200px;
+}
+
+.border__line{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.categorie{
+    display: flex;
+    margin: 1rem 0;
+    width: 60%;
+    justify-content: space-between;
+}
+.social__icon{
+    margin-right: 10px;
+    height: 1.2rem;
+    width: 1.4rem;
+}
+.social__links{
+    margin: 1rem 0;
+}

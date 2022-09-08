@@ -1,0 +1,46 @@
+
+   .home__right{
+       flex: 3;
+       margin-left: 3rem;
+   }
+   .home__right p{
+       margin: 1rem 0;
+       font-size: 14px;
+   }
+   .home__right h2{
+       margin: 0 auto;
+       display: block;
+       border-top: 1px solid black;
+       border-bottom: 1px solid black;
+    }
+   .home__img{
+       width: 100vw;
+       height: 300px;
+       margin-bottom: 2rem;
+       background-size: cover;
+       background-position: center;
+   }
+   
+   .home__profile{
+       width:100%;
+       height:200px;
+   }
+   
+   .border__line{
+       border-top: 1px solid black;
+       border-bottom: 1px solid black;
+   }
+   .categorie{
+       display: flex;
+       margin: 1rem 0;
+       width: 60%;
+       justify-content: space-between;
+   }
+   .social__icon{
+       margin-right: 10px;
+       height: 1.2rem;
+       width: 1.4rem;
+   }
+   .social__links{
+       margin: 1rem 0;
+   }
